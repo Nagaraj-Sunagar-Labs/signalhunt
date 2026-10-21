@@ -1,0 +1,10 @@
+# Binaries
+/signalhunt
+/bin/
+
+# Test artifacts
+*.out
+coverage.html
+
+# Editor/OS
+.DS_Store

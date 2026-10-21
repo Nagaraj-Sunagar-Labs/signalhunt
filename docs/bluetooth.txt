@@ -1,0 +1,29 @@
+Bluetooth Devices.
+------------------
+All Bluetooth Devices send their meta data info, when they are turned on.
+that metadata includes several information mainly as below.
+Local Name:
+Manufacturer Date:
+Service UUIDs:
+Flgs : Discoverable, BLE Capable.
+
+BLE Flow.
+------------
+BLE device
+    |
+    | 1. Sends advertisement
+    v
+Computer scans
+    |
+    | 2. Receives advertisement
+    v
+Application gets ScanResult
+    |
+    | 3. Application decides to connect
+    v
+BLE connection is established
+    |
+    | 4. Device exposes services and characteristics
+    v
+Application reads or writes data
+
