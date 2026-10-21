@@ -16,7 +16,7 @@ type LocationResponse struct {
 }
 
 func main() {
-	apiKey := "AIzaSyBUKr_-l1rQk4bkiI4qRmepFnri9eVkRYA"
+	apiKey := "GMAP_API_KEY" // Replace with your actual API key
 
 	requestBody := []byte(`{"considerIp": true}`)
 
